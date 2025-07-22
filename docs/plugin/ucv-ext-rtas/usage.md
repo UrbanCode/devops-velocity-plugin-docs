@@ -37,12 +37,12 @@ You will need to "install" the plug-in in IBM DevOps Velocity. You can do this i
     ]
 
     ```
-* In the above example, provide all of your own values for the values inside of `< >` brackets.
+* In the above example, provide all of your own values for the values inside of `<` `>` brackets.
 * The buildRegExp field can be used to map a build to a metric. The tags on the IBM DevOps Test Hub test will be evaluated against the regular expression.
 * For instance, if your buildRegExp is defined as "([A-Z]+-[0-9]+)" and you tag your test with "BUILD-123" this will map the build with ID BUILD-123 in the Velocity server to the newly created metric.
 * For help forming a regular expression based on your build ID, you can test out patterns at the following web page: https://regexr.com
 
-* Another option for creating is to hit the https://`<velocity-url>`/integration url with the integration definition as your payload:
+* Another option for creating is to hit the `https://<velocity-url>/integration` url with the integration definition as your payload:
 
     ```
 
@@ -64,7 +64,7 @@ You will need to "install" the plug-in in IBM DevOps Velocity. You can do this i
 
 ## Running the Integration
 
-After going through the "Set Up" portion above, you can send an HTTP POST request to your new endpoint: https://`<velocity-url>`/pluginEndpoint/`<integrationId>`/rtas/callback
+After going through the "Set Up" portion above, you can send an HTTP POST request to your new endpoint: `https://<velocity-url>/pluginEndpoint/<integrationId>/rtas/callback`
 
 * The payload for this POST must be in the following format
 
@@ -153,8 +153,3 @@ The following tables describe the properties used to configure the integration. 
 | IBM DevOps Test Hub Offline User Token | rtasOfflineToken | Secure | The offline user token created in the IBM DevOps Test Hub user interface by clicking the Create Token button. | Yes |
 | IBM DevOps Test Hub Server URL | rtasUrl | String | The base URL of the IBM DevOps Test Hub Server. For example: https://tp- cicd2.nonprod.domain.com/test. | Yes |
 | Workflow Id | workflowId | String | The value stream that this metric is associated. | No |
-
-
-|Back to ...||Latest Version|IBM DevOps Test Hub |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.38-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-rtas/ucv-ext-rtas%3A1.0.38.tar.7z.001)[and 1.0.38-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-rtas/ucv-ext-rtas%3A1.0.38.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
