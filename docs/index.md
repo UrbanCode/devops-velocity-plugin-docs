@@ -19,7 +19,7 @@ hero:
       link: https://www.ibm.com/docs/en/devops-velocity/latest?topic=functions-introducing-plugins
 
     - theme: alt
-      text: Build Your Own Plugin
+      text: Community
       link: https://community.ibm.com/community/user/blogs/osman-burucu/2022/07/20/using-plug-ins-in-urbancode-velocity
 
     - theme: alt
