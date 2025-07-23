@@ -6,21 +6,21 @@ hero:
   name: "IBM DevOps Velocity"
   text: "Plugins Documentation"
   image:
-    light: "/deploy-black.png"
-    dark: "/deploy-white.png"
-    alt: "DevOps Deploy"
+    light: "velocity_black.png"
+    dark: "velocity_white.png"
+    alt: "DevOps Velocity"
   actions:
     - theme: brand
       text: Get started with IBM DevOps Velocity
-      link: https://www.ibm.com/docs/en/devops-deploy/8.1.1?topic=getting-started
+      link: https://www.ibm.com/docs/en/devops-velocity/latest?topic=getting-started
 
     - theme: alt
       text: Learn more about Plug-ins
-      link: https://www.ibm.com/docs/en/devops-deploy/8.1.1?topic=function-plug-ins
+      link: https://www.ibm.com/docs/en/devops-velocity/latest?topic=functions-introducing-plugins
 
     - theme: alt
       text: Build Your Own Plugin
-      link: https://community.ibm.com/community/user/blogs/shabaz-kowthalam/2024/11/25/creating-an-automation-plugin-for-devops-deploy
+      link: https://community.ibm.com/community/user/blogs/osman-burucu/2022/07/20/using-plug-ins-in-urbancode-velocity
 
     - theme: alt
       text: Get help
